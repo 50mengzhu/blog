@@ -602,5 +602,12 @@ npm i --save hexo-wordcount
 
 
 
+##### 问题十六：怎样为自己的blog添加相册
+
+这个我主要是针对yilia这个主题进行操作的，主要的方法是按照[这个]([http://www.lawlite.me/2017/04/13/Hexo-Github%E5%AE%9E%E7%8E%B0%E7%9B%B8%E5%86%8C%E5%8A%9F%E8%83%BD/](http://www.lawlite.me/2017/04/13/Hexo-Github实现相册功能/))，那么完全按照上述步骤走完之后，会出现一个这样的问题——也就是图片的缩略图不显示，打开控制台，发现报一下的错误
+
+![1581861788874](1581861788874.png)
+
+&emsp;&emsp;那么解决方案就是按照报错信息中的路径，在photos目录下创建一个ins.j/img文件夹，然后将[这个](empty.png)另存为到该目录下，然后一顿hexo连击操作就OK了。
 
 
